@@ -1,0 +1,113 @@
+/* CSS Document */
+body
+{
+	/*font-family:Verdana, Geneva, sans-serif;*/
+	font-size:11px;
+}
+#main
+{
+	width:850px;
+	min-height:400px;
+	overflow:hidden;
+	border:#930 1px solid;
+	border-radius:10px;
+	margin:auto;
+	padding:5px;
+	background-color:#CCC;		
+}
+.tieude
+{
+	font-size:16px;
+	font-weight:900;
+	text-align:center;
+	color:#C60;
+}
+
+.khung
+{
+	width:185px;
+	height:350px;
+	float:left;
+	margin:8px;
+	text-align:center;
+}
+.khung:hover
+{
+	background-color:#999;
+	opacity:0.5;	
+}
+.khung img
+{
+	width:145px;
+	height:145px;
+	border-radius:15px;	
+}
+.khung h4
+{
+	color:navy;
+	margin:5px;	
+}
+.gia
+{
+	color:#930;
+	font-weight:bold;
+	
+}
+
+#khungct
+{
+	width:450px;
+	height:400px;
+	margin:8px;
+	
+}
+#khungct img
+{
+	width:300px;
+	float:left;
+	margin-right:10px;
+}
+input[type="button"]
+{
+	width:auto;
+	height:30px;
+	background-color:#F00;
+	color:#FFF;
+	border-style:none;
+	cursor:pointer;	
+}
+#phantrang
+{
+	text-align:center;	
+}
+
+/*table*/
+table[border="1"] {
+  border-collapse:collapse;
+  font:normal normal 11px Verdana,Arial,Sans-Serif;
+  color:#666;
+  -webkit-box-shadow:0 1px 3px rgba(0,0,0,.5);
+  -moz-box-shadow:0 1px 3px rgba(0,0,0,.5);
+  box-shadow:0 1px 3px rgba(0,0,0,.5);
+}
+
+table[border="1"] tr {
+  background-color:#fafafa;
+}
+
+table[border="1"] th,
+table[border="1"] td {
+  vertical-align:top;
+  padding:5px 10px;
+  border:1px solid white;
+}
+
+table[border="1"] tr:nth-child(even) {
+  background-color:#f5f5f5;
+}
+
+table[border="1"] th {
+  background-color:#ECE9D8;
+  color:#ACA899;
+  font-weight:bold;
+}
